@@ -169,8 +169,8 @@ page.endTime = new Date();
           console.log("The whole DOM is ")
           //console.log(document.getElementsByTagName('html')[0].outerHTML);
           console.log(document.getElementsByClassName('compForm')[0].outerHTML);
-          document.getElementsByName('email')[0].value = "tom@switchconcepts.com";
-          document.getElementsByName('password')[0].value = "tKHIya379yM9";
+          document.getElementsByName('email')[0].value = "############";
+          document.getElementsByName('password')[0].value = "#######";
           a = document.getElementsByClassName('compForm')[0];
           console.log("Time to click");
           a.submit.click();
